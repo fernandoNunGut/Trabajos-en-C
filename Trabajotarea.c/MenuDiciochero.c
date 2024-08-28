@@ -55,7 +55,7 @@ int main() {
                 printf("Has agregado %d vaso(s) chicha al carrito. Subtotal: $%.2f\n", cantidad, total);
                 break; //Esto es para finalizar ejecución de switch(case)
             case 5:
-                printf("Gracias por su compra. El total a pagar es: $%.2f\n", total);
+                printf(RED "------------>Gracias por su compra. El total a pagar es: $%.2f\n" RESET, total);
                 break; //Esto es para finalizar ejecución de switch(case)
             default:
                 printf("Opción no válida. Por favor, elija una opción del 1 al 5.\n");
