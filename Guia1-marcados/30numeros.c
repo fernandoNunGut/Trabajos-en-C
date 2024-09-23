@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int mai() {
+int main() {
 
   int numero, sumaImpares = 0, contadorImpares = 0;
 
