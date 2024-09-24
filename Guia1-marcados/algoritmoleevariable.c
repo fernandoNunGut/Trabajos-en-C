@@ -16,10 +16,9 @@ int main() {
 
   //restriccion para que mientras no se ingresen 70 números pares no termine el ciclo
 
-  while (pares < 70) 
-  {
+  while (pares < 70) {
     printf("Ingrese un número: ");
-    scanf("%d", num);
+    scanf("%d", &num);
 
     // ahora si el numero es par se tiene que 
 
@@ -27,8 +26,7 @@ int main() {
     {
       pares++;
       suma_pares += num;
-    }else
-    {
+    }else {
       impares++;
       suma_impares += num;
     }
