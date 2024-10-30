@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
+/*  Aca usamos la función "" strlen "" para obtener la longitud de una cadena de caracteres.
+    strlen devuelve la longitud de una cadena de caracteres.
+*/
+
 // Función para desencriptar una palabra
 void desencriptar(char palabra[]) {
     for (int i = 0; i < strlen(palabra); i++) {
