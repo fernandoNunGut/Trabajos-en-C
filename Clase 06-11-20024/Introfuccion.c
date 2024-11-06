@@ -8,12 +8,13 @@ int main()
   int libros, librosPorAulas, aulas, i, j, k;
   printf("Ingrese el numero de libros: ");
   scanf("%d", &libros);
-  printf("Ingrese el numero de libros a distribuir: ");
+  printf("Ingrese el numero de aulas: ");
   scanf("%d", &librosPorAulas);
+
   if (libros > 0 && librosPorAulas > 0)
   {
-    libros = libros - librosPorAulas;
-    librosPorAulas = librosPorAulas - 1 ;
+    libros = libros - 30;
+    
     printf("En total %d aulas tienen %d libros\n", librosPorAulas, libros);
   }
   
