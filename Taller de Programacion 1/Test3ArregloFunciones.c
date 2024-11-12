@@ -103,3 +103,40 @@ int main(void)
 
     return 0; // Terminar el programa
 }
+
+
+
+
+
+
+/*
+  printf("Ingrese el numero de juegos: "); // Mostrar el número de juegos
+  scanf("%d", &n); // Obtener el número de juegos
+
+  // ingresa nombre de Games y cantidad de juegos
+  for (int i = 0; i < n; i++) // Recorrer cada juego
+    {
+        printf("Ingrese el nombre del Juego %d: ", i + 1); // Mostrar el número de juegos
+        scanf("%s", Games[i]);  // Guardar el nombre en el arreglo de Games
+
+        printf("Ingrese la cantidad de juegos: "); // Mostrar el número de juegos
+        scanf("%d", &m); // Obtener el número de juegos
+
+        printf("Ingrese la cantidad de juegos %s: ", Games[i]); // Mostrar el nombre del Games
+        for (int j = 0; j < m; j++) // Recorrer cada juego 
+        {
+            scanf("%f", &cantidad[i][j]); // Ingresar las cantidad de cada juego
+        }
+    }
+  
+  // calcular el promedio de cada juego
+  for (int i = 0; i < n; i++) // Recorrer cada juego
+    {
+        promedio = 0; // Inicializar el promedio
+        for (int j = 0; j < m; j++) // Recorrer cada Juego
+        {
+            promedio += cantidad[i][j]; // Sumar las cantidades de los juegos 
+        }
+        promedio /= m; // Calcular el promedio
+        printf("El promedio de la cantidad de juegos %s es: %.2f\n", Games[i], promedio); // Mostrar el promedio de calificaciones del estudiante
+    } */
